@@ -1014,8 +1014,10 @@ sudo grep "CUSTOM NMAP TCP SYN SCAN" /var/log/snort/snort.alert.fast
 ### Remote access
 
 ```bash
-ssh user@192.168.56.10
+ssh <username>@192.168.56.10
 ```
+
+Replace `<username>` with the appropriate Linux username configured on the target VM.
 
 ### Package management
 
