@@ -243,6 +243,45 @@ This is one of the most important SOC concepts demonstrated by this project.
 
 ---
 
+## 🧰 Languages, Syntax & Technologies
+
+This is primarily a **cybersecurity lab and documentation project** rather than a traditional software application. It is not built with a single programming language — instead, it brings together scripting skills, detection-rule syntax, configuration formats, and security platforms.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Bash%20%2F%20Shell-4EAA25?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Syntax-Snort%20Rules-EF2D5E?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Config-XML-E34F26?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Data-JSON-000000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Shell-PowerShell-5391FE?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Docs-Markdown-0A0A0A?style=for-the-badge">
+</p>
+
+### 💻 Languages & Syntax
+
+| Category | Language / Syntax | Used in this lab |
+|---|---|---|
+| 💻 Scripting | **Bash / Shell** | Linux administration, service management, log inspection, and Wazuh, Suricata, Snort and Nmap commands |
+| 🚦 Detection Rules | **Snort Rule Syntax** | Custom network detection rule for the Nmap TCP SYN scan |
+| 📝 Configuration | **XML** | Custom Wazuh detection rule configuration |
+| 🧾 Data Formats | **JSON** | Suricata EVE JSON network telemetry and Wazuh alert data |
+| 🖥️ Scripting | **PowerShell / Windows command-line** | Windows administration and testing where applicable |
+| 📚 Documentation | **Markdown** | Project documentation |
+
+### 🛡️ Security Tools & Platforms
+
+| Tool / Platform | Version | Role in the lab |
+|---|---|---|
+| 🛡️ **Wazuh** | `4.9.2` | Centralized SIEM monitoring and alert management |
+| 🔎 **Suricata** | `7.0.3` | Network monitoring and EVE JSON telemetry |
+| 🚨 **Snort** | `2.9.20` | Network intrusion detection with custom rules |
+| 🔍 **Nmap** | — | Network reconnaissance / TCP SYN scan |
+| ⚔️ **Kali Linux** | — | Attack simulation and security testing |
+| 🐧 **Ubuntu Server** | `24.04` | Operating system for the SIEM and Sensor VMs |
+| 🖥️ **Windows 10** | — | Monitored endpoint (Victim) |
+| 📦 **VirtualBox** | — | Virtualization platform for the lab |
+
+---
+
 # 📋 Prerequisites
 
 Before starting the lab, make sure your host system has:
